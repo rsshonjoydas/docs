@@ -10,6 +10,7 @@
 
 ## Table of Contents
 
+- [Husky](/docs/husky.md)
 - [Contact](#contact)
 
 <!-- CONTACT -->
