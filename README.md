@@ -12,6 +12,7 @@
 
 - [Husky](/docs/husky.md)
 - [VSCode](/docs/vscode.md)
+- [Airbnb Style Guide](/docs/airbnb-style-guide.md)
 - [Contact](#contact)
 
 <!-- CONTACT -->
