@@ -11,6 +11,7 @@
 ## Table of Contents
 
 - [Husky](/docs/husky.md)
+- [VSCode](/docs/vscode.md)
 - [Contact](#contact)
 
 <!-- CONTACT -->
