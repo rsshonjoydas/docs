@@ -2,12 +2,8 @@
 
 - Install configuration packages in your devDependencies
 
-  ```sh
-  yarn add -D @commitlint/cli
-              @commitlint/config-conventional
-              husky
-              lint-staged
-              validate-branch-name
+  ```bash
+  yarn add -D @commitlint/cli @commitlint/config-conventional husky lint-staged validate-branch-name
   ```
 
 - We need to add some configuration to a file named `commitlint.config.js` like this:
