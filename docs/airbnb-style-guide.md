@@ -3,7 +3,7 @@ Airbnb style guide setup
 - Install those packages in devDependencies
 
   ```bash
-  yarn add -D @next/eslint-plugin-next @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks prettier
+  yarn add -D @next/eslint-plugin-next @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks prettier prettier-plugin-tailwindcss
   ```
 
 - We need to add some configuration to a file named `.eslintrc.json` like this:
@@ -61,6 +61,7 @@ Airbnb style guide setup
 
   ```json
   {
+    "plugins": ["prettier-plugin-tailwindcss"],
     "trailingComma": "es5",
     "singleQuote": true,
     "jsxSingleQuote": true,
