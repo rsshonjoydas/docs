@@ -14,7 +14,12 @@ Airbnb style guide setup
       "browser": true,
       "es2021": true
     },
-    "extends": ["plugin:@next/next/recommended", "airbnb", "prettier"],
+    "extends": [
+      "next/core-web-vitals",
+      "plugin:@next/next/recommended",
+      "airbnb",
+      "prettier"
+    ],
     "globals": {
       "React": "readonly"
     },
@@ -29,6 +34,16 @@ Airbnb style guide setup
     },
     "plugins": ["react", "@typescript-eslint"],
     "rules": {
+      "import/order": [
+        "error",
+        {
+          "groups": [
+            ["builtin", "external"],
+            ["parent", "sibling", "index"]
+          ],
+          "newlines-between": "always"
+        }
+      ],
       "no-console": "off",
       "react/react-in-jsx-scope": "off",
       "react/state-in-constructor": "off",
